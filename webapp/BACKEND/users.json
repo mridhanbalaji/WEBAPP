@@ -1,9 +1,26 @@
-[{
-    "username": "user1",
-    "password": "cat",
-    "firstname": "",
-    "lastname": "",
-    "email": "",
-    "phonenumber": ""
-}
+[
+    {
+    "id": "user1",
+    "properties": 
+        {
+        "username": "user1",
+        "password": "dog",
+        "firstname": "",
+        "lastname": "",
+        "email": "",
+        "phonenumber": ""
+        }
+    },
+    {
+    "id": "user2",
+    "properties": 
+        {
+        "username": "user2",
+        "password": "cat",
+        "firstname": "",
+        "lastname": "",
+        "email": "",
+        "phonenumber": ""
+        }   
+    }
 ]
