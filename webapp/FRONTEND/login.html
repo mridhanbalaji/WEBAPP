@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html>
+  <h1>
+    <title>Log-in</title>
+  </h1>
+
+  <body style="background-color: #98d0c7">
+    <style>
+      label {
+        position: fixed;
+        font-size: 20px;
+        margin-left: 500px;
+        margin-top: 300px;
+      }
+
+      input {
+        position: fixed;
+        left: 700px;
+        margin-top: 300px;
+      }
+
+      input[type="submit"] {
+        position: fixed;
+        left: 1150px;
+        background-color: black;
+        color: aliceblue;
+      }
+
+      t1 {
+        position: fixed;
+        font-size: 50px;
+        top: 200px;
+        left: 400px;
+      }
+
+      btn[class="forgot user"] {
+        border: none;
+        background-color: inherit;
+        padding: 14px 28px;
+        font-size: 15px;
+        cursor: pointer;
+        display: inline-block;
+        position: fixed;
+        margin-top: 440px;
+        margin-left: 100px;
+      }
+      btn[class="forgot psw"] {
+        border: none;
+        background-color: inherit;
+        padding: 14px 28px;
+        font-size: 15px;
+        cursor: pointer;
+        display: inline-block;
+        position: fixed;
+        margin-top: 460px;
+        margin-left: 100px;
+      }
+      btn[class="new user"] {
+        border: none;
+        background-color: inherit;
+        padding: 14px 28px;
+        font-size: 15px;
+        cursor: pointer;
+        display: inline-block;
+        position: fixed;
+        margin-top: 480px;
+        margin-left: 100px;
+      }
+    </style>
+
+    <t1><b>Sign in Here</b></t1>
+
+    <form>
+      <label for="Username"><b>Username</b></label>
+      <input type="Username" name="Username" size="70" required /><br />
+      <br />
+      <br />
+
+      <label for="psw"><b>Password</b></label>
+      <input id="psw_1" type="password" name="psw" size="70" required /><br />
+      <br />
+      <br />
+
+      <input type="submit" />
+    </form>
+
+    <btn class="forgot user"
+      ><u><b>Forgot Username</b></u></btn
+    >
+    <br />
+    <btn class="forgot psw"
+      ><u><b>Forgot Password</b></u></btn
+    >
+    <br />
+    <btn class="new user"
+      ><u><b>New User?</b></u></btn
+    >
+  </body>
+</html>
