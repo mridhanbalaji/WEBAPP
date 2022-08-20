@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+
+<html>
+  <h1>
+    <title>Sign Up</title>
+  </h1>
+
+  <body style="background-color: #98d0c7">
+    <style>
+      label {
+        position: fixed;
+        font-size: 15px;
+        margin-left: 300px;
+        margin-top: 200px;
+      }
+
+      input {
+        position: fixed;
+        left: 500px;
+        margin-top: 200px;
+      }
+
+      input[type="button"] {
+        position: fixed;
+        left: 940px;
+        background-color: black;
+        color: aliceblue;
+      }
+
+      t1[class="Title"] {
+        position: fixed;
+        font-size: 50px;
+        top: 100px;
+        left: 200px;
+      }
+    </style>
+    <t1 class="Title"><b>New User?</b></t1>
+    <form>
+      <label for="First Name"><b>First Name</b></label>
+      <input type="text" name="First Name" size="70" required id = "fn" />
+      <br />
+      <br />
+      <br />
+
+      <label for="Last Name"><b>Last Name</b></label>
+      <input type="text" name="Last Name" size="70" required id = "ln"/><br />
+      <br />
+      <br />
+
+      <label for="email"><b>Email</b></label>
+      <input type="text" name="email" size="70" required id = "email"/><br />
+      <br />
+      <br />
+
+      <label for="Phone Number"><b>Phone Number</b></label>
+      <input type="Phone Number" name="Phone Number" size="70" required id= "ph" /><br />
+      <br />
+      <br />
+
+      <label for="Username"><b>Username</b></label>
+      <input type="Username" name="Username" size="70" required id = "usr"/><br />
+      <br />
+      <br />
+
+      <label for="psw"><b>Password</b></label>
+      <input id="psw_1" type="password" name="psw" size="70" required /><br />
+      <br />
+      <br />
+
+      <label for="psw-repeat"><b>Repeat Password</b></label>
+      <input
+        id="psw_2"
+        type="password"
+        name="psw-repeat"
+        size="70"
+        required
+      /><br />
+      <br />
+      <br />
+      <input type="button" value="Register" onClick="checkPassword()" />
+    </form>
+    <script src="passwordCheck.js"></script>
+  </body>
+</html>
